@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+  background-color: #440398
+
+}
+h1,p,label,h5, form {
+  color: white;
+  text-align: center;
+}
+h1,p,h5{
+  text-indent: 43px;
+}
