@@ -3,10 +3,10 @@ body {
   background-color: #440398
 
 }
-h1,p,label,h5, form {
+h1,p,label,h4, form {
   color: white;
   text-align: center;
 }
-h1,p,h5{
-  text-indent: 43px;
+h1,p,h4{
+  text-indent: 32px;
 }
