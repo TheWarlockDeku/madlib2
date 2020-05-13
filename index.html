@@ -5,36 +5,53 @@
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
   </head>
-  
-
   <body>
       <h1>Mad Libs!</h1>
-      <h5>How to dance.</h5>
-      <form>
-          <label for="bodyp1"> Body Part 1 </label>	
-			<input type="text" id="bodyp1" />  
+      <h4>How to dance.</h4>
+      <form
+      id="inputs">
+      <h5>
+          <label for="Body1"> Body Part 1 </label>	
+			<input type="text" id="Body1" />  
       <br>
+      </h5>
         <p>
-          <label for="Name">Name</label>
-        <input type="text" id="Name"/>
+          <label for="name">Name</label>
+        <input type="text" id="person"/>
         <br>
         </p>
-        <label for="bodyp2"> Body Part 2</label>
-        <input type="text" id="Bodyp2"/>
+        <h5>
+        <label for="Body2"> Body Part 2</label>
+        <input type="text" id="Body2"/>
        <br>
+        </h5>
        <p>
-       <label for="Verb"> Verb . </label>
-        <input type="text" id="Verb"/>
+       <label for="verb"> Verb . </label>
+        <input type="text" id="verb"/>
         <br>
        </p>
        <p>
-        <label for="Noise"> Noise</label>
-        <input type="text" id="Noise"/>
+        <label for="noise"> Noise</label>
+        <input type="text" id="noise"/>
         <br>
        </p>
        <p>
-        <input type="submit" id="submit" />
+        <button id="nextBtn" 
+        type="button">Next</button>
+        <br>
       </form>
+    <div class="wrapper" id="results">
+      <div><p> <textarea id="textbox" readonly></textarea></p></div>
+      <div class="rightal"><p>
+        <input
+        class="button"
+        type="reset"
+        id="resetB"
+        form="inputs"
+        value="Play Again"
+      />
+      </p></div>
+    </div>
+<script src="src/index.js"></script>
   </body>
 </html>
-
